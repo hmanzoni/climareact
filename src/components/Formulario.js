@@ -34,6 +34,9 @@ function Formulario ({datosConsulta}) {
                 <select onChange={handleChange} name="pais">
                     <option value="">--Select a country--</option>
                     <option value="US">United States</option>
+                    <option value="IT">Italy</option>
+                    <option value="IT">Spain</option>
+                    <option value="AR">Argentina</option>
                 </select>
             </div>
             <div className="input-field col s12">
